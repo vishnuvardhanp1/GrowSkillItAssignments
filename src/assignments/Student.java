@@ -8,6 +8,7 @@ package assignments;
 public class Student {
 
 	/**
+	 * @author Vishnuvardhan P
 	 * @param args
 	 */
 	public static void main(String[] args) {
