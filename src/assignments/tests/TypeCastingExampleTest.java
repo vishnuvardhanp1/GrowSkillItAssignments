@@ -3,6 +3,8 @@
  */
 package assignments.tests;
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Ignore;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -22,11 +24,11 @@ public class TypeCastingExampleTest {
         assertEquals(97.8F, obj.getMarks());
     }
 
-   /* @Test
+    @Ignore
     void testConvertToDouble() {
         double result = obj.convertToDouble(97.8F);
         assertEquals(97.8, result);
-    }*/
+    }
 
     @Test
     void testConvertToInt() {
