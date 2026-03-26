@@ -2,13 +2,13 @@ package assignments.tests;
 
 import org.junit.jupiter.api.Test;
 
-import assignments.Program_Multiplication;
+import assignments.DailyAssignment5;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Program_MultiplicationTest {
+public class DailyAssigment5Test {
 
     @Test
     void testOutput() {
@@ -19,7 +19,7 @@ public class Program_MultiplicationTest {
         System.setOut(new PrintStream(output));
 
         // Call your method
-        Program_Multiplication.getValues();
+        DailyAssignment5.getValues();
 
         // Restore original System.out
         System.setOut(original);

@@ -3,11 +3,32 @@
  */
 package assignments;
 
+
 /**
  * 
  */
 public class DailyAssignment2 {
+/*
+ * Problem Statement
 
+Write a Java program where:
+
+A float variable marks = 97.8f is given
+Convert it into:
+double (upcasting)
+int (downcasting)
+Convert the final int value into a character (ASCII conversion)
+Print all intermediate and final values
+
+âœ… Output Explanation
+Float value: 97.8
+Converted to double: 97.8
+Converted to int: 97
+Character value: a
+
+ðŸ‘‰ ASCII 97 = 'a'
+ */
+	
 	/**
 	 * @author VISHNU VARDHAN
 	 * @param args
@@ -47,6 +68,8 @@ public class DailyAssignment2 {
         System.out.println("Character value is : " + intCharacter);
 
         System.out.println("ASCII 97 = '" + intCharacter + "'");
+        
+        //Code without oops
         
         /* float marks=97.8F;
          System.out.println("Float value : " + marks);

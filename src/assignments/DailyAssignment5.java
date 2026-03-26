@@ -6,7 +6,7 @@ package assignments;
 /**
  * 
  */
-public class Program_Multiplication {
+public class DailyAssignment5 {
 
 	/**
 	 * @param args

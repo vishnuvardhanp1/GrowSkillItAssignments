@@ -6,7 +6,7 @@ package assignments;
 /**
  * 
  */
-public class Program_EscapeSequence {
+public class DailyAssignment3 {
 
 	
 	

@@ -6,7 +6,7 @@ package assignments;
 /**
  * 
  */
-public class ResultProgramPercentage {
+public class DailyAssignment4 {
 	
 	public static String getResult(int m1, int m2, int m3, int m4, int m5) {
 

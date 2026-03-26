@@ -6,6 +6,57 @@ package assignments;
  * 
  */
 public class DailyAssignment1 {
+	/*
+Question:
+
+Write a Java program for a student management system that stores and prints the following details:
+
+Student age
+
+Student marks (out of 500)
+
+Mobile battery percentage (0â€“100)
+
+City population (e.g., 25,00,000)
+
+Student grade (A/B/C/etc.)
+
+Bank balance (no decimals)
+
+User login status (true/false)
+
+Distance to college in meters
+
+A very large number: 9,000,000,000
+
+ðŸ“Œ Requirements:
+
+You must:
+
+Declare variables for all the above values
+
+Assign appropriate values
+
+Print them in a proper format
+
+Important Constraint:
+
+Choose the most suitable data type for each variable
+
+Do NOT use float or double
+
+ðŸ“¤ Sample Output Format:
+Age: 21
+Marks: 450
+Battery: 85%
+City Population: 2500000
+Grade: A
+Bank Balance: 50000
+Login Status: true
+Distance: 1200 meters
+Large Number: 9000000000
+	
+	 */
 
 	/**
 	 * @author Vishnuvardhan P
