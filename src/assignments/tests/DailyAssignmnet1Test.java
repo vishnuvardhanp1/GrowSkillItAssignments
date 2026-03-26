@@ -10,15 +10,15 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import assignments.Student;
+import assignments.DailyAssignment1;
 
-public class StudentTest {
+public class DailyAssignmnet1Test {
 
-    private Student student;
+    private DailyAssignment1 student;
 
     @BeforeEach
     void setUp() {
-        student = new Student();
+        student = new DailyAssignment1();
     }
 
     @Test

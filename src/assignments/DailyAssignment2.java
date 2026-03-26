@@ -6,7 +6,7 @@ package assignments;
 /**
  * 
  */
-public class TypeCastingExample {
+public class DailyAssignment2 {
 
 	/**
 	 * @author VISHNU VARDHAN
@@ -32,7 +32,7 @@ public class TypeCastingExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-        TypeCastingExample obj = new TypeCastingExample();
+        DailyAssignment2 obj = new DailyAssignment2();
 
         float marks = obj.getMarks();
         System.out.println("Float value : " + marks);

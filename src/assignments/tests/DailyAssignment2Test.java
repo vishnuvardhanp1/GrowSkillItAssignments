@@ -8,15 +8,15 @@ import org.junit.Ignore;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import assignments.TypeCastingExample;
+import assignments.DailyAssignment2;
 
-public class TypeCastingExampleTest {
+public class DailyAssignment2Test {
 
-    private TypeCastingExample obj;
+    private DailyAssignment2 obj;
 
     @BeforeEach
     void setUp() {
-        obj = new TypeCastingExample();
+        obj = new DailyAssignment2();
     }
 
     @Test

@@ -5,7 +5,7 @@ package assignments;
 /**
  * 
  */
-public class Student {
+public class DailyAssignment1 {
 
 	/**
 	 * @author Vishnuvardhan P
@@ -52,7 +52,7 @@ public class Student {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// With oop
-			Student s=new Student();
+			DailyAssignment1 s=new DailyAssignment1();
 		
 		 	System.out.println("Age: " + s.getAge());
 	        System.out.println("Marks: " + s.getMarks());

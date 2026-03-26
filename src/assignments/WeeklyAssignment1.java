@@ -6,7 +6,7 @@ package assignments;
 /**
  * 
  */
-public class TypeCastingExample1 {
+public class WeeklyAssignment1 {
 
 	/**
 	 * @auyhor vishnuvardhan P

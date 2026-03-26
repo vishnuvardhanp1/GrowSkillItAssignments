@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * 
  */
-public class AsciiExplorer {
+public class WeeklyAssignment2 {
 
 	/**
 	 * @author Vishnuvardhan P
