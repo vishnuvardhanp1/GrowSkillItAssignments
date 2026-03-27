@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * 
  */
-public class WeeklyAssignment2 {
+public class WeeklyAssignment1_2 {
 
 	/**
 	 * @author Vishnuvardhan P
@@ -28,12 +28,7 @@ public class WeeklyAssignment2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
      char inputCharacter='A';
-    // System.out.println("Enter character :" + inputCharacter);
-     Scanner sc = new Scanner(System.in);
-
-     System.out.println("Enter Character : ");
-     inputCharacter = sc.next().charAt(0);
-
+   
      System.out.println("You entered: " + inputCharacter);
 
      int ascii = getAsciiValue(inputCharacter);
@@ -44,7 +39,7 @@ public class WeeklyAssignment2 {
 
      System.out.println("The new Character is : " + convertToChar(updatedAscii));
 
-     sc.close();
+   
 		 
      
      
