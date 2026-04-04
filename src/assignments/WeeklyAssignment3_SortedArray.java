@@ -9,6 +9,10 @@ package assignments;
 public class WeeklyAssignment3_SortedArray {
 
 	
+	/**
+	 * @param arr
+	 * @return
+	 */
 	static boolean isSorted(int arr[])
 	{
 		

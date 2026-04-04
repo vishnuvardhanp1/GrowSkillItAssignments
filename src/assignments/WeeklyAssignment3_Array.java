@@ -6,7 +6,7 @@ package assignments;
 /**
  * 
  */
-public class WeeklyAssignment3_Array1 {
+public class WeeklyAssignment3_Array {
 
 	/**
 	 * @param args
