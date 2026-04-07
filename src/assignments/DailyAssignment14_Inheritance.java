@@ -17,7 +17,7 @@ public class DailyAssignment14_Inheritance {
         DeveloperDetails developerDetails=new DeveloperDetails("Kannan",14000,"Java");
         SeniorDeveloperDetails seniorDeveloperDetails=new SeniorDeveloperDetails("Varun",20000,"Java",9);
         managerDetails.displayDetails();
-        developerDetails.diplayDetails();
+        developerDetails.displayDetails();
         seniorDeveloperDetails.displayDetails();
 	}
 

@@ -24,7 +24,7 @@ public class DeveloperDetails  extends EmployeeDetails{
 	/**
 	 * 
 	 */
-	void diplayDetails() {
+	void displayDetails() {
 		super.displayDetails();
 		System.out.println("Programmin Language Selected by developer is : "+ progLanguage);
 	}
