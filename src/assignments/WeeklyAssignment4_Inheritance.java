@@ -68,7 +68,7 @@ class Student extends Person {
 /**
  * 
  */
-public class WeeklyAssignment1_Inheritance {
+public class WeeklyAssignment4_Inheritance {
 
 	/**
 	 * @param args
