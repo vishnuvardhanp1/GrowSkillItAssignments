@@ -3,6 +3,7 @@
  */
 package assignments;
 
+import java.util.Scanner;
 import java.util.Stack;
 
 /**
@@ -29,7 +30,9 @@ public class DailyAssignment29_Stack {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
     Stack<Character> stack=new Stack<Character>();
-   String str="hello";
+    Scanner sc=new Scanner(System.in);
+   String str=sc.next();
+   sc.close();
    for(int i=0;i<=str.length()-1;i++) {
 	   stack.push(str.charAt(i));
 	   
@@ -39,6 +42,7 @@ public class DailyAssignment29_Stack {
    while(!stack.empty()){
 	   System.out.print(stack.pop());
    }
+   
     
 	}
 
