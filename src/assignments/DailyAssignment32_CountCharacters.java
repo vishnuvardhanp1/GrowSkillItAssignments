@@ -20,7 +20,7 @@ Output
 
 a3b2c1
  */
-public class DailyAssignment33_CountCharacters {
+public class DailyAssignment32_CountCharacters {
 
 	/**
 	 * @param args
