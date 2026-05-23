@@ -17,6 +17,7 @@ package assignments;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 
 class EmployeeData {
@@ -141,7 +142,37 @@ public class DailyAssignment35_Streams {
 		System.out.println("\n Find total salary of filtered employees using mapToInt() and sum()");
 		int sum=filteredList.stream().map(EmployeeData::getSalary).mapToInt(Integer::intValue).sum();
 		System.out.println(sum);
-		
-	}
+	/*	6. Print 2, 4, 6 … 30
 
-}
+		👉 Conditions:
+
+		· Multiples of 3 → print "Hello"
+
+		· Multiples of 10 → print "Bye"
+
+		· If both → print "Bye" (priority) */
+		int i = 2;
+		while(i <= 30) { 
+			if(i % 10 == 0) {
+				System.out.println("Bye"); 
+				} else if(i % 3 == 0) { 
+					System.out.println("Hello"); 
+					} else {
+						System.out.println(i); } i += 2; 
+						}
+
+	
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter number: "); 
+		int num = sc.nextInt();
+		int count = 0; 
+		while(num != 0)
+		{ 
+			num = num / 10; 
+			count++; 
+			} 
+		System.out.println("Total digits = " + count);
+	}	
+	}
+	
