@@ -37,7 +37,7 @@ public class DailyAssignment36_Selenium1 {
 	    Thread.sleep(2000);
 	    List<WebElement> textControls=driver.findElements(By.tagName("textarea"));
 	    for(WebElement text:textControls) {
-	    	text.sendKeys("Hi All");
+	    	text.sendKeys("Hi all");
 	    	Thread.sleep(2000);
 	    }
 	    Thread.sleep(2000);
@@ -49,8 +49,7 @@ public class DailyAssignment36_Selenium1 {
 	    Thread.sleep(2000);
 	    dropDown.selectByIndex(0);
 	    Thread.sleep(2000);
-	    dropDown.selectByValue("1");
-	    Thread.sleep(2000);
+	    
 	    WebElement checkbox=driver.findElement(By.name("agreement"));
 	    checkbox.click();
 	    Thread.sleep(2000);
